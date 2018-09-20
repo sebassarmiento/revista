@@ -44,6 +44,12 @@ body {
         animation: fadein 3s ease-in;
     }
 
+    .presentacion{
+        color: rgba(255, 255, 255, 0.753);
+        text-align: center;
+        padding: 24px;
+    }
+
     @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -86,5 +92,22 @@ body {
         right: 0%;
         font-size: 0.6em;
         color: rgba(255, 255, 255, 0.685);
+    }
+
+    .footer{
+        color: rgba(255, 255, 255, 0.582);
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .footer span{
+        color: rgb(100, 0, 100);
+    }
+
+    .footer a{
+        color: rgba(255, 255, 255, 0.582);
+        font-size: 1.8em;
+        margin: 20px;
     }
 }
