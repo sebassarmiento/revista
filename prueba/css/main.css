@@ -19,6 +19,10 @@ body {
       background: black;
 }
 
+.mobile{
+    display: none;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (max-width: 864px) {
@@ -28,6 +32,16 @@ body {
     
     img{
         border-radius: 4px;
+    }
+
+    .mobile{
+        display: block;
+        -webkit-animation: fadein 5s;
+    }
+
+    @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
     }
     
     .nota{
