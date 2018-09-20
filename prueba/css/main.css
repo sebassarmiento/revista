@@ -17,6 +17,11 @@ body {
       height: 100vh;
       font-weight: 400;
       background: black;
+      overflow-x: hidden;
+}
+
+.hide{
+    display: none;
 }
 
 .mobile{
@@ -36,7 +41,7 @@ body {
 
     .mobile{
         display: block;
-        -webkit-animation: fadein 5s;
+        animation: fadein 3s ease-in;
     }
 
     @keyframes fadein {
@@ -51,6 +56,10 @@ body {
         margin: 14px;
         margin-top: 32px;
         margin-bottom: 64px;
+        transition: all 1s;
+        transform: translateX(20%);
+        opacity: 0;
+        overflow: hidden;
     }
     
     .titulo-nota{
