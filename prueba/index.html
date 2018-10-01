@@ -29,8 +29,14 @@
         <div class="nav-wrapper">
             <ul>
                 <li><a href="#">NUEVO</a></li>
-                <li><a href="./components/notas.html">NOTAS</a></li>
-                <li><a href="./components/editorial.html">FOTOS</a></li>
+                <li><a href="./components/notas.html" id="nota-dropdown" >NOTAS</a>
+                    <ul id="dropdown" >
+                        <li><a href="#">Gastronomia</a></li>
+                        <li><a href="#">Turismo</a></li>
+                        <li><a href="#">Cultura</a></li>
+                    </ul>
+                </li>
+                <li><a href="./components/editorial.html">EDITORIAL</a></li>
                 <li><a href="./components/contacto.html">CONTACTO</a></li>
             </ul>
         </div>
@@ -140,6 +146,7 @@
         </footer>
     </div>
     <script src="app.js"></script>
+    <script src="../js/navbar.js"></script>
 </body>
 
 </html>

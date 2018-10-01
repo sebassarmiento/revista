@@ -28,10 +28,16 @@
         </div>
         <div class="nav-wrapper">
             <ul>
-                <li><a href="../index.html">NUEVO</a></li>
-                <li><a href="./notas.html">NOTAS</a></li>
-                <li><a href="./editorial.html">FOTOS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><a href="../index.html">Nuevo</a></li>
+                <li><a href="./notas.html" id="nota-dropdown" >Notas</a>
+                    <ul id="dropdown" >
+                        <li><a href="#">Gastronomia</a></li>
+                        <li><a href="#">Turismo</a></li>
+                        <li><a href="#">Cultura</a></li>
+                    </ul>
+                </li>
+                <li><a href="./editorial.html">Editorial</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </div>
     </nav>
@@ -140,6 +146,7 @@
         </footer>
     </div>
     <script src="../js/editorial.js"></script>
+    <script src="../js/navbar.js"></script>
 </body>
 
 </html>
